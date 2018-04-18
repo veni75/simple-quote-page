@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background: url('assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.quote {font-family: 'Julius Sans One', sans-serif;
+text-transform: uppercase;
+  max-width: 80vw;;
+  font-size: 2rem;
+line-height: 3.2rem;
+margin: 6rem;}
+
+.author {font-family: 'Crimson Text', serif;
+  font-style: italic;}
+
+.author::before {
+  display: inline-block;
+  content: "";
+  background-color: black;
+  height: 1px;
+  width: 1rem;
+  vertical-align: middle;
+  }
+
+
