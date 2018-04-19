@@ -12,7 +12,7 @@ body {
 
 .quote {font-family: 'Julius Sans One', sans-serif;
 text-transform: uppercase;
-  max-width: 80vw;;
+  max-width: 80vw;
   font-size: 2rem;
 line-height: 3.2rem;
 margin: 6rem;}
@@ -28,5 +28,25 @@ margin: 6rem;}
   width: 1rem;
   vertical-align: middle;
   }
+
+/* ==== FOOTER STYLES ==== */
+
+body {position: relative;
+padding-bottom: 6rem;}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  height: 6rem;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: lightgray;
+  padding: 2rem;
+      }
+
+
+
+
 
 
