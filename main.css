@@ -11,11 +11,11 @@ body {
 }
 
 .quote {font-family: 'Julius Sans One', sans-serif;
-text-transform: uppercase;
-  max-width: 80vw;
-  font-size: 2rem;
-line-height: 3.2rem;
-margin: 6rem;}
+  text-transform: capitalize;
+  max-width: 95vw;
+  font-size: 1rem;
+line-height: 2rem;
+margin: 1rem;}
 
 .author {font-family: 'Crimson Text', serif;
   font-style: italic;}
@@ -28,6 +28,20 @@ margin: 6rem;}
   width: 1rem;
   vertical-align: middle;
   }
+
+@media  (min-width: 768px) {
+
+  .quote {
+    text-transform: uppercase;
+    max-width: 80vw;
+  font-size: 2rem;
+line-height: 3.2rem;
+    margin: 6rem;
+      }
+  
+  
+
+}
 
 /* ==== FOOTER STYLES ==== */
 
